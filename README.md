@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/davidmerrick/alexa-new-ssml.svg?branch=master)](https://travis-ci.org/davidmerrick/alexa-new-ssml)
+
 Trying out new SSML tags Amazon recently introduced for Alexa: https://developer.amazon.com/blogs/alexa/post/5c631c3c-0d35-483f-b226-83dd98def117/new-ssml-features-give-alexa-a-wider-range-of-natural-expression.
 
 ## Usage:
