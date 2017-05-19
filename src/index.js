@@ -7,6 +7,10 @@ const APP_ID = process.env.APP_ID;
 
 // Note: these functions can't be ES6 arrow functions; "this" ends up undefined if you do that.
 const handlers = {
+    'WhisperIntent': function () {
+        let speechOutput = `<amazon:effect name="whispered">This is the Echo whispering.</amazon:effect>`;
+        this.emit(':tell', speechOutput);
+    },
     'LaunchRequest': function () {
         let speechOutput = `Welcome to ${INVOCATION_NAME}`;
         this.emit(':ask', speechOutput, "What would you like to do?");
