@@ -10,6 +10,33 @@
       "intent": "WhisperIntent"
     },
     {
+      "slots": [
+        {
+          "name": "Message",
+          "type": "AMAZON.LITERAL"
+        }
+      ],
+      "intent": "EmphasizeIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Message",
+          "type": "AMAZON.LITERAL"
+        }
+      ],
+      "intent": "LowPitchIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Message",
+          "type": "AMAZON.LITERAL"
+        }
+      ],
+      "intent": "SlowIntent"
+    },
+    {
       "intent": "AMAZON.HelpIntent"
     },
     {

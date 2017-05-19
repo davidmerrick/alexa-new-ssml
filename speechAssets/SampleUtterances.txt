@@ -1,1 +1,4 @@
 WhisperIntent whisper {slot value|Message}
+SlowIntent slow down {slot value|Message}
+LowPitchIntent lower {slot value|Message}
+EmphasizeIntent emphasize {slot value|Message}
