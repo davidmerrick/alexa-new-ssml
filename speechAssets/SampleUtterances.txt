@@ -1,0 +1,1 @@
+WhisperIntent whisper {slot value|Message}

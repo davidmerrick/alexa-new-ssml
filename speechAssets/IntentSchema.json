@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "Message",
+          "type": "AMAZON.LITERAL"
+        }
+      ],
+      "intent": "WhisperIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
